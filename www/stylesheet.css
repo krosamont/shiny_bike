@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Assistant');
+
+body{
+  font-family: 'Assistant', sans-serif;
+}
+
+/*.h2, h2 {
+font-size: 34px;
+}*/
+text{
+font-family: 'Assistant', sans-serif !important;
+font-size: 10px;
+}
+#th_avail, .td_avail, #th_dist, .td_dist, #th_time, .td_time {
+text-align: center;
+}
+/*.box .box-warning {background-color: #ffffff6b;}
+#controls {background-color: #ffffff6b;} */
+#logo_title{
+  width: 4rem;
+}
+.shiny-output-error{color: grey;
+  visibility: hidden;}
+  #white_space{padding-left: 0.4em;}
+  #title_tb{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+
+  .main-header .navbar{
+    margin-left: 330px;
+  }
+
+  .main-header .logo {width: 330px;}
+
+  #controls {
+    /* Appearance */
+    background-color: white;
+    padding: 0 20px 20px 20px;
+    cursor: move;
+    /* Fade out while not hovering */
+    opacity: 0.65;
+    zoom: 0.9;
+    transition: opacity 500ms 1s;
+  }
+  #controls:hover {
+    /* Fade in while hovering */
+    opacity: 0.95;
+    transition-delay: 0;
+  }
